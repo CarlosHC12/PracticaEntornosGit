@@ -10,15 +10,16 @@ una vez clonado, abro el "proyecto" En el explortador de archivos, y elimino la 
 
 2:añado una carpeta adicional, preparada inicialmente para poder usar el README.MD que contiene la informacion, y poder "Ignorar" el README.MD del repositorio original 
 
-- `src`: the folder to maintain sources
+- `es.tiernoparla.productos`:  En esta carpeta se encuentra todo lo relacionado con la actividad, el resto es el readmy de la informacion etc.
+- `.gitignore`: Tiene dentro README.md
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+ `bin` folder by default.
 
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
 ## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here]().
 
 
 
