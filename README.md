@@ -19,7 +19,7 @@ una vez clonado, abro el "proyecto" En el explortador de archivos, y elimino la 
 
 ## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here]().
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [Enlace](https://github.com/CarlosHC12/PracticaEntornosGit).
 
 
 
