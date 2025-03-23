@@ -8,9 +8,9 @@ una vez clonado, abro el "proyecto" En el explortador de archivos, y elimino la 
 
 >  Realizo una clonacion en vez de descargar para tener evitar descargar un zip, y simplemente editar los archivos necesarios y ya.
 
-2:añado una carpeta adicional, preparada inicialmente para poder usar el README.MD que contiene la informacion, y poder "Ignorar" el README.MD del 
-repositorio original 
+2:añado una carpeta adicional, preparada inicialmente para poder usar el README.MD que contiene la informacion, y poder "Ignorar" el README.MD del repositorio original 
 
+- `src`: the folder to maintain sources
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
