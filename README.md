@@ -46,8 +46,15 @@ Se crea el objeto, se usa el motodo AñadirProducto, se extrae la lista del meto
     El metodo de testeo, crea y elimina el objeto siguiendo la misma logica que en añadir, copiando la lista, y asegurandose de que el objeto
      se haya eliminado correctamente.
     
-
-
+- En el metodo ListarProducto, creo un producto y lo listo, y el assertNotNull comprueba que el hueco de la lista no este vacio, con que tenga datos, no debe dar error
+      Inventario inv = new Inventario();
+        Producto product = new Producto("123", "galletas", 50, 8);
+        Producto p2 = null;
+        inv.añadirProducto(product);
+        inv.listarProductos();
+        List<Producto> listaProd = inv.listarProductos();
+        p2 = listaProd.get(0);
+        assertNotNull(p2, "No puede ser nulo");
 
 
 
