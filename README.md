@@ -35,7 +35,7 @@ añadiendo hard code para crear el objeto que quiero que se pueda añadir a la l
 Se crea el objeto, se usa el motodo AñadirProducto, se extrae la lista del metodo a la del testeo, y se comprueba si el objeto es el indicado .
 
 - En el metodo EliminarProducto, hago uso de `assertNull` para asegurarme de que el metodo elimina correctamente el objeto creado con hard code:
-        ºInventario inv = new Inventario();
+        Inventario inv = new Inventario();
         Producto product = new Producto("123", "galletas", 50, 8);
         inv.añadirProducto(product);
         inv.listarProductos();
@@ -43,11 +43,12 @@ Se crea el objeto, se usa el motodo AñadirProducto, se extrae la lista del meto
         inv.eliminarProducto("123");
         inv.buscarProductoPorCodigo("123"); 
         assertNull(inv.buscarProductoPorCodigo("123"), "No valido");.
+    El metodo de testeo, crea y elimina el objeto siguiendo la misma logica que en añadir, copiando la lista, y asegurandose de que el objeto
+     se haya eliminado correctamente.
     
 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+
 
 
 Enlace de github: [Enlace](https://github.com/CarlosHC12/PracticaEntornosGit).
