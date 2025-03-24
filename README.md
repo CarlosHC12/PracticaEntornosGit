@@ -13,20 +13,21 @@ una vez clonado, abro el "proyecto" En el explortador de archivos, y elimino la 
 - `es.tiernoparla.productos`:  En esta carpeta se encuentra todo lo relacionado con la actividad, el resto es el readme de la informacion etc.
 - `.gitignore`: esta dentro de `es.tiernoparla.productos`
 
- `bin` folder by default.
+> Las subidas de los cambios las hago en vs code usando "CONTROL DE CODIGO FUENTE",escribiendo el nombre del cambio realizado antes de subirlo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Pruebas unitarias realizadas
+1: Creo el archivo `junit-platform-console-standalone-1.13.0-M1` seleccionando los metodos de la clase 
+inventario, y hago click en la bombillita amarilla, y selecciono `generate test`,me sale un mensaje en la esquina inferior de la pantalla, y pulso en el boton que pone enable o habilitar y en la parte superior del vs, selecciono junit jupiter, y se genera el archivo.
 
-## Dependency Management
+2: vuelvo a seleccionar los metodos que quiero testear, y hago clik en la bombilla amarilla, despues selecciono generate test, y pulso enter, ya que el nombre del tes se genera solo
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [Enlace](https://github.com/CarlosHC12/PracticaEntornosGit).
+3:En la clase `InventarioTest.java` realizo las pruebas unicarias coprrespondientes a cada metodo
 
+- En el metodo TestAñadirProducto, ``.
 
-
-
-
--Creo un nuevo repositorio usando github desptok, y elijo la ubicacion del repositorio clonado, 
-esto generara la carpeta git. 
  
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
+
+
+Enlace de github: [Enlace](https://github.com/CarlosHC12/PracticaEntornosGit).
