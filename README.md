@@ -10,8 +10,8 @@ una vez clonado, abro el "proyecto" En el explortador de archivos, y elimino la 
 
 2:añado una carpeta adicional, preparada inicialmente para poder usar el README.MD que contiene la informacion, y poder "Ignorar" el README.MD del repositorio original 
 
-- `es.tiernoparla.productos`:  En esta carpeta se encuentra todo lo relacionado con la actividad, el resto es el readmy de la informacion etc.
-- `.gitignore`: Tiene dentro README.md
+- `es.tiernoparla.productos`:  En esta carpeta se encuentra todo lo relacionado con la actividad, el resto es el readme de la informacion etc.
+- `.gitignore`: esta dentro de `es.tiernoparla.productos`
 
  `bin` folder by default.
 
