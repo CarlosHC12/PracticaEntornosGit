@@ -23,7 +23,16 @@ inventario, y hago click en la bombillita amarilla, y selecciono `generate test`
 
 3:En la clase `InventarioTest.java` realizo las pruebas unicarias coprrespondientes a cada metodo
 
-- En el metodo TestAñadirProducto, ``.
+- En el metodo TestAñadirProducto, hago uso de `assertEquals` para asegurarme de que el metodo devuelve el valor que requiero,
+añadiendo hard code para crear el objeto que quiero que se pueda añadir a la lista del metodo, en este hago la prueba en base al siguenete codigo:
+    Inventario inv = new Inventario();
+        Producto product = new Producto("123", "galletas", 50, 8);
+        inv.añadirProducto(product);
+        inv.listarProductos();
+        List<Producto> listaProd = inv.listarProductos();
+        listaProd.get(0);
+        assertEquals("123",listaProd.get(0).getCodigo(),  "el codigo tiene que ser 123");
+    .
 
  
 - `src`: the folder to maintain sources
