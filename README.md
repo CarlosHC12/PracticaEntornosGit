@@ -59,3 +59,5 @@ Se crea el objeto, se usa el motodo AñadirProducto, se extrae la lista del meto
 
 
 Enlace de github: [Enlace](https://github.com/CarlosHC12/PracticaEntornosGit).
+
+Clonado
